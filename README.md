@@ -8,4 +8,4 @@ For test, I'm creating second EC2 to which I deploy manually, that's why I have 
 
 For Jenkins pipeline implementation, DOCKER_PASS was defined as Secret Text credential, PROJECT_NAME variable was defined as global ENV.
 
-PS: files were taken from ricardoandre97 jenkins-resources repo.
+PS: thanks ricardoandre97 for your cource and jenkins-resources repo.
