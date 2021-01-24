@@ -7,8 +7,7 @@ RUN apt-get update && apt-get install python3-pip -y && \
     apt-get upgrade -y && apt-get update
 
 # Docker
-RUN apt-get update && \
-    apt-get -y install apt-transport-https \
+RUN apt-get -y install apt-transport-https \
          ca-certificates \
         curl \
         gnupg2 \
